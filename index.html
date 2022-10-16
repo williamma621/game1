@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="main_body">
+    <div id = "age">
+      <p> 寿命: 
+        <span id="current_age"> 0 </span>
+        <span> / </span>
+        <span id="max_age"> 100 </span>
+      </p> 
+    </div>
+
+    <div id = "qi">
+      <p> 修为: 
+        <span id="current_qi"> 0 </span>
+        <span> / </span>
+        <span id="max_qi"> 1 </span>
+      </p> 
+    </div>
+
+    <p>境界 
+        <span id="steps"> 练气 </span>
+        <span id="levels"> 一层 </span>
+    </p>
+    
+    <button onclick = "cultivate()"> 练功 </button>
+    <button onclick = "travel()"> 游历 </button>
+    <button onclick = "levelup()"> 升级 </button>
+    <button onclick = "breakthrough()"> 突破 </button>
+
+  </div>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
